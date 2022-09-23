@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+
+    </head>
+    <body>
+        <script>
+            //fibonacci dizisini olustur
+            //dizi elemanlarini tek array de topla
+            //diziyi yazdir
+            var i;
+            var dizi=[];
+            dizi[0]=1;
+            dizi[1]=1;
+            for(i=2; i<20; i++)
+            {
+                dizi[i]=dizi[i-1]+dizi[i-2];
+            }
+            for(i=0; i<20; i++)
+            {
+                console.log(""+dizi[i]);
+            }
+        </script>
+    </body>
+</html>
